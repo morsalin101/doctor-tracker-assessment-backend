@@ -133,6 +133,7 @@ The separate Next.js client consumes this API and adapts its workflows across de
 
 Run `pnpm build` and deploy `dist/` as a Node.js service. Configure the production frontend origin, MongoDB connection, strong JWT secret, secure cookies, and administrator seed values through the hosting platform's secret manager.
 
-- Live API: _To be added_
-- Backend repository: _To be added_
-- Frontend repository: _To be added_
+- Live application: [Doctor Tracker](https://doctor-tracker-assessment-frontend.vercel.app/)
+- Live API: [Doctor Tracker API](https://doctor-tracker-assessment-backend.onrender.com/)
+- Backend repository: [doctor-tracker-assessment-backend](https://github.com/morsalin101/doctor-tracker-assessment-backend)
+- Frontend repository: [doctor-tracker-assessment-frontend](https://github.com/morsalin101/doctor-tracker-assessment-frontend)
