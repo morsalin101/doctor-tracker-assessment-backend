@@ -121,13 +121,17 @@ This makes the dashboard endpoint more specialized than a generic repository lay
 
 The separate Next.js client consumes this API and adapts its workflows across desktop and mobile layouts.
 
-### Desktop dashboard
+### Login landing page
+
+The secure login experience introduces the product with the updated Doctor Tracker identity and medical-care hero artwork.
+
+![Doctor Tracker login landing page](./docs/screenshots/login-desktop.png)
+
+### Authenticated dashboard
+
+The authenticated dashboard displays the analytics and operational data supplied by this API.
 
 ![Doctor Tracker desktop dashboard](./docs/screenshots/dashboard-desktop.png)
-
-### Mobile patient directory
-
-<img src="./docs/screenshots/patients-mobile.png" alt="Doctor Tracker mobile patient directory" width="390" />
 
 ## Deployment
 
