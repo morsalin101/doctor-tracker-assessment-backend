@@ -30,6 +30,17 @@ pnpm dev
 
 The server listens on [http://localhost:5001](http://localhost:5001) by default. `pnpm seed` safely upserts the configured administrator and demonstration dataset; it does not delete unrelated database records.
 
+## Demo Credentials
+
+Reviewers can access the [live Doctor Tracker application](https://doctor-tracker-assessment-frontend.vercel.app/) with the following assessment account:
+
+```text
+Email: admin@doctortracker.local
+Password: DoctorTracker!2026#Admin
+```
+
+> These credentials are intentionally public for project evaluation only. Rotate or remove this account after the assessment.
+
 ### Environment variables
 
 The repository includes a sanitized [`.env.example`](./.env.example):
